@@ -20,10 +20,10 @@ def gemini_res(ques):
 st.set_page_config(page_title="Q&A Demo")
 
 st.header("GEMINI LLM  Application")
-
+# THis is my commment
 input = st.text_input("Input", key="input")
 submit = st.button("Ask the Question")
-
+print("hello")
 # Opertion after submitting the button
 
 if submit:
